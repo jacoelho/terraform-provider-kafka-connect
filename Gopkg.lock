@@ -219,6 +219,12 @@
   revision = "683f49123a33db61abfb241b7ac5e4af4dc54d55"
 
 [[projects]]
+  branch = "setup-http-client"
+  name = "github.com/jacoelho/go-kafka-connect"
+  packages = ["lib/connectors"]
+  revision = "303f28d3f0cefe3722e87b526b812d7e70460e72"
+
+[[projects]]
   name = "github.com/jmespath/go-jmespath"
   packages = ["."]
   revision = "0b12d6b5"
@@ -299,12 +305,6 @@
   ]
   revision = "dc2bc5a81accba8782bebea28628224643a8286a"
   version = "v1.1"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/ricardo-ch/go-kafka-connect"
-  packages = ["lib/connectors"]
-  revision = "132b7b7ad380a6c860fecc0ca9b0a2af9bf45471"
 
 [[projects]]
   name = "github.com/satori/go.uuid"
@@ -436,6 +436,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "6a14a896e2d9441d895d2077396e40c9144853072726ab980107d2e03e266a32"
+  inputs-digest = "5051288ac650a3010108cdf53dbc1df2a7fb2855d8854df70c475f23e6ab6bc3"
   solver-name = "gps-cdcl"
   solver-version = 1
